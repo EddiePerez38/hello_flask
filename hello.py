@@ -31,7 +31,6 @@ app = Flask(__name__)    # Create a new instance of the Flask class called "app"
 
 @app.route('/lists')
 def render_lists():
-    # Soon enough, we'll get data from a database, but for now, we're hard coding data
     student_info = [
        {'name' : 'Michael', 'age' : 35},
        {'name' : 'John', 'age' : 30 },
